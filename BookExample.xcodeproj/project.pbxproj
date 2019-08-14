@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5CD1F8F323039A1000DDC4D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD1F8F223039A1000DDC4D6 /* main.m */; };
+		5CD1F8FB23039A9800DDC4D6 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD1F8FA23039A9800DDC4D6 /* Book.m */; };
+		5CD1F8FE2303A21300DDC4D6 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD1F8FD2303A21300DDC4D6 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		5CD1F8EF23039A1000DDC4D6 /* BookExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BookExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CD1F8F223039A1000DDC4D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CD1F8F923039A9800DDC4D6 /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		5CD1F8FA23039A9800DDC4D6 /* Book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		5CD1F8FC2303A21300DDC4D6 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		5CD1F8FD2303A21300DDC4D6 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				5CD1F8F223039A1000DDC4D6 /* main.m */,
+				5CD1F8F923039A9800DDC4D6 /* Book.h */,
+				5CD1F8FA23039A9800DDC4D6 /* Book.m */,
+				5CD1F8FC2303A21300DDC4D6 /* Person.h */,
+				5CD1F8FD2303A21300DDC4D6 /* Person.m */,
 			);
 			path = BookExample;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CD1F8FE2303A21300DDC4D6 /* Person.m in Sources */,
+				5CD1F8FB23039A9800DDC4D6 /* Book.m in Sources */,
 				5CD1F8F323039A1000DDC4D6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
